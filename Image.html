@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Touch-Enabled Advanced Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sky-bg">
+
+    <header>
+        <h1>Interactive Image Slider</h1>
+    </header>
+
+    <main>
+        <div class="slider-container" id="slider">
+            <div class="slides">
+                <div class="slide current">
+                    <img src="https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=1260" alt="Mountain">
+                    <div class="caption">Swipe or Click to Navigate</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1260" alt="City">
+                    <div class="caption">Advanced JavaScript Logic</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/401975/pexels-photo-401975.jpeg?auto=compress&cs=tinysrgb&w=1260" alt="Forest">
+                    <div class="caption">Smooth Skyblue Theme</div>
+                </div>
+            </div>
+
+            <button id="prevBtn" class="nav-btn">&#10094;</button>
+            <button id="nextBtn" class="nav-btn">&#10095;</button>
+
+            <div class="dots-container">
+                <span class="dot active-dot" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
